@@ -1,5 +1,5 @@
 
-# Alterar a Versão do Node.js para 12.22.9 usando NVM
+# Alterar a Versão do Node.js para 12.22.9 usando NVM antes de seguir os readme do front-end e back-end
 
 # No Linux/macOS usando NVM
 
