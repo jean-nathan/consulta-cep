@@ -1,5 +1,7 @@
 # frontend VUE 3
 
+## It is important to have the node 12.22.9 version
+
 ## Project setup
 ```
 cd frontend
