@@ -50,7 +50,6 @@ Após configurar o Node.js, siga as instruções abaixo para instalar as depend�
 cd frontend
 npm install
 
-```bash
 cd backend
 npm install
 
