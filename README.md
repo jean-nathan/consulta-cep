@@ -1,30 +1,40 @@
+# ConsultaCep
 
-# Alterar a Versão do Node.js para 12.22.9 usando NVM antes de seguir os readme do front-end e back-end
+Bem-vindo ao ConsultaCep! Antes de começar, siga as instruções abaixo para configurar o ambiente de desenvolvimento.
 
-# No Linux/macOS usando NVM
+## Requisitos
 
-# 1. Instalar o NVM (caso não esteja instalado)
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+Certifique-se de ter as seguintes versões do Node.js e npm instaladas:
 
-# Siga as instruções fornecidas após a instalação para ativar o NVM no seu terminal.
+- Node.js: v12.22.9 [Baixar Node.js](https://nodejs.org/en/download/)
+- npm: v8.5.1 [Baixar npm](https://www.npmjs.com/package/npm/v/8.5.1)
 
-# 2. Instalar e usar a versão 12.22.9
-nvm install 12.22.9
-nvm use 12.22.9
+## Instalação
 
-# No Windows usando NVM-Windows
+1. Baixe e instale o Node.js v12.22.9 do [site oficial do Node.js](https://nodejs.org/en/download/).
 
-# 1. Baixar e Instalar o NVM-Windows (via PowerShell)
-iwr https://github.com/coreybutler/nvm-windows/releases/latest/download/nvm-setup.zip -OutFile nvm-setup.zip
-Expand-Archive nvm-setup.zip -DestinationPath $env:USERPROFILE\.nvm
-cd $env:USERPROFILE\.nvm
+2. Após a instalação do Node.js, o npm será instalado automaticamente. No entanto, para garantir que você tenha a versão correta do npm, você pode atualizá-lo separadamente. Abra o terminal e execute o seguinte comando:
 
-# Execute o instalador interativo
-.\nvm-setup
+    ```bash
+    npm install -g npm@8.5.1
+    ```
 
-# 2. Instalar e usar a versão 12.22.9
-nvm install 12.22.9
-nvm use 12.22.9
+3. Agora, você pode instalar as dependências do frontend e do backend do projeto ConsultaCep. Vá para os diretórios correspondentes e execute:
 
-# Verificar a Versão do Node.js
-node -v
+    ```bash
+    cd frontend
+    npm install
+    ```
+
+    ```bash
+    cd backend
+    npm install
+    ```
+
+## Executando o Projeto
+
+Com as dependências instaladas, você pode executar o projeto. Certifique-se de estar no diretório apropriado (frontend ou backend) e execute o seguinte comando:
+
+```bash
+npm run serve para o frontend
+npm run server para o backend
