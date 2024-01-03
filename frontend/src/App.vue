@@ -47,7 +47,7 @@ export default {
 
       localStorage.setItem('IsPageQueryZipCode', JSON.stringify(this.isPageQueryZipCode));
 
-      this.$router.push(this.isPageQueryZipCode ? '/consultar-cep' : '/home');
+      this.$router.push(this.isPageQueryZipCode ? '/consultar-cep' : '/');
     }
   }
 }
