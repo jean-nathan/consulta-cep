@@ -5,7 +5,7 @@ import QueryZipCode from '@/views/QueryZipCode.vue'
 
 const routes = [
   {
-    path: '/home',
+    path: '/',
     name: 'home',
     component: Home
   },
